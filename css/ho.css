@@ -5,22 +5,19 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+    overflow-x: hidden; 
 }
 
-/* Contenedor de partículas */
 #particles-js {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca el contenedor detrás del contenido */
-    background: #99fff088; /* Fondo oscuro para el contenedor de partículas */
-    pointer-events: none; /* Asegura que el contenedor de partículas no interfiera con el contenido */
+    z-index: -1; 
+    background: #99fff088;
+    pointer-events: none; 
 }
-
-/* Estilos generales para los contenedores */
 .container {
     width: 80%;
     margin: 20px auto;
@@ -28,11 +25,11 @@ body {
     border-radius: 10px;
     transition: background-color 0.3s ease;
     text-align: center;
-    background: transparent; /* Fondo transparente */
+    background: transparent; 
 }
 
 .container:hover {
-    background: #f8f9fa; /* Fondo claro al pasar el ratón */
+    background: #f8f9fa; 
 }
 
 .container h1 {

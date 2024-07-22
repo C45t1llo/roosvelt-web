@@ -11,7 +11,7 @@ function appendNumber(number) {
 
 function appendOperator(op) {
     if (currentValue === '' && op === '-') {
-        currentValue = op; // Allow negative numbers
+        currentValue = op; 
         updateDisplay();
         return;
     }

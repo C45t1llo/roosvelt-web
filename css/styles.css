@@ -1,51 +1,46 @@
-/* Estilos para el cuerpo */
 body {
-    background-color: #f7f7f7; /* Fondo gris claro */
-    color: #333333; /* Texto oscuro para contraste */
+    background-color: #f7f7f7; 
+    color: #333333;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    margin: 0; /* Asegura que no haya margen en el cuerpo */
-    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+    margin: 0; 
+    overflow-x: hidden; 
 }
 
-/* Contenedor de partículas */
 #particles-js {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca el contenedor detrás del contenido */
-    background: #99fff088; /* Fondo oscuro para el contenedor de partículas */
-    pointer-events: none; /* Asegura que el contenedor de partículas no interfiera con el contenido */
+    z-index: -1; 
+    background: #99fff088; 
+    pointer-events: none; 
 }
 
-/* Estilos para el encabezado */
 header {
-    color: #ffffff; /* Texto blanco para contraste */
-    background-color: #333333; /* Fondo oscuro para el encabezado */
+    color: #ffffff; 
+    background-color: #333333; 
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Estilos para el título principal */
 header h1 {
-    font-size: 36px; /* Tamaño grande para el título principal */
-    margin: 0; /* Elimina el margen por defecto */
-    font-weight: normal; /* Fuente normal */
-    transition: color 0.3s ease; /* Transición suave para el cambio de color de texto */
+    font-size: 36px; 
+    margin: 0; 
+    font-weight: normal; 
+    transition: color 0.3s ease; 
 }
 
 header h1:hover {
-    color: #ff6347; /* Color rojo tomate al pasar el ratón */
+    color: #ff6347;
 }
 
-/* Estilos para el menú de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 10px 0 0 0; /* Margen superior */
+    margin: 10px 0 0 0;
     text-align: center;
 }
 
@@ -55,12 +50,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* Color de texto para los enlaces */
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    border-radius: 5px; /* Bordes redondeados para los enlaces */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el cambio de color de fondo y texto */
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 nav ul li a:hover {
@@ -121,9 +116,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffffff; /* Color blanco al pasar el ratón sobre los enlaces del pie de página */
-}
-/* Estilos para el menú desplegable */
+    color: #ffffff;}
 .dropdown {
     position: relative;
     display: inline-block;

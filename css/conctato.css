@@ -46,7 +46,6 @@ footer {
     width: 100%;
 }
 
-/* Estilos específicos para el formulario de contacto */
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -85,7 +84,6 @@ footer {
     background-color: #0056b3;
 }
 
-/* Estilos específicos para redes sociales */
 .social-icons {
     list-style-type: none;
     padding: 0;

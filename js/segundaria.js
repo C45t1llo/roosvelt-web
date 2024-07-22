@@ -43,7 +43,6 @@ function calculateFactorial() {
 
     document.getElementById('factorialResult').textContent = `El factorial de ${number} es ${factorial}.`;
 
-    // Explicación del cálculo
     document.getElementById('factorialResult').insertAdjacentHTML('beforeend', `<br>Explicación: <br> Para calcular ${number}!, multiplicamos ${number} por ${number-1}, por ${number-2}, hasta llegar a 1. <br> Ejemplo: ${number}! = ${Array.from({length: number}, (_, i) => i + 1).reverse().join(' x ')} = ${factorial}.`);
 }
 
